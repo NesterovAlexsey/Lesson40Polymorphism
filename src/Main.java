@@ -7,20 +7,23 @@
 //
 //    Создайте классы "Мужчина" и "Женщина",
 //    которые будут наследниками класса "Человек".
-//
 //    Попытка вывести их на экран должна приводить к выводу строки
 //    "Мужчина по имени ..." или "Женщина по имени ..."
-//
 //    Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 
 public class Main {
 
   public static void main(String[] args) {
-    Person cris = new Person("Cris");
-    System.out.println(cris);
-    cris.helloWorld();
+    Person adam = new Person("Adam");
+    System.out.println(adam);
+    adam.helloWorld();
 
     Person venja = new Man("Venijamin");
     System.out.println(venja);
+    venja.helloWorld();
+
+    Person nastya = new Woman("Anastasija");
+    System.out.println(nastya);
+    nastya.helloWorld();
   }
 }

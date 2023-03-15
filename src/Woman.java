@@ -1,6 +1,3 @@
-
-//    Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
-
 //    Создайте класс "Женщина",
 //    которые будут наследниками класса "Человек".
 public class Woman extends Person {
@@ -13,5 +10,9 @@ public class Woman extends Person {
     return String.format("Женщина по имени %s", getName());
   }
 
-
+  //    Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
+  @Override
+  public void helloWorld() {
+    System.out.println("Я родилась!");
+  }
 }
