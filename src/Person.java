@@ -17,4 +17,10 @@ public class Person { //    Создайте класс "Человек"
   public String toString() {
     return String.format("Человек по имени %s", name);
   }
+
+  //Добавьте в класс "Человек" метод "приветствие",
+  //который будет выводить строку: "Я родился!"
+  public void helloWorld() {
+    System.out.println("Я родился!");
+  }
 }

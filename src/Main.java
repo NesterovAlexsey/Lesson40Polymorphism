@@ -1,9 +1,7 @@
 //Задача 1
 //    Создайте класс "Человек", конструктор которого принимает имя.
-//
 //    При попытке вывести объект этого класса на экран
 //    должна выводиться строка "Человек по имени ...".
-//
 //    Добавьте в класс "Человек" метод "приветствие",
 //    который будет выводить строку: "Я родился!"
 //
@@ -18,8 +16,9 @@
 public class Main {
 
   public static void main(String[] args) {
-    Person Cris = new Person("Cris");
+    Person cris = new Person("Cris");
 
-    System.out.println(Cris);
+    System.out.println(cris);
+    cris.helloWorld();
   }
 }
