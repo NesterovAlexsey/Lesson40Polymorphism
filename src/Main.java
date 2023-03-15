@@ -11,6 +11,9 @@
 //    "Мужчина по имени ..." или "Женщина по имени ..."
 //    Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
   public static void main(String[] args) {

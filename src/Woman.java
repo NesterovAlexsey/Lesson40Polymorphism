@@ -6,6 +6,7 @@ public class Woman extends Person {
   }
 
   //   Попытка вывести на экран должна приводить к выводу строки "Женщина по имени ..."
+  @Override
   public String toString() {
     return String.format("Женщина по имени %s", getName());
   }
