@@ -16,4 +16,10 @@
 //    Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 
 public class Main {
+
+  public static void main(String[] args) {
+    Person Cris = new Person("Cris");
+
+    System.out.println(Cris);
+  }
 }
