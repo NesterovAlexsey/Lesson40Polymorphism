@@ -17,8 +17,10 @@ public class Main {
 
   public static void main(String[] args) {
     Person cris = new Person("Cris");
-
     System.out.println(cris);
     cris.helloWorld();
+
+    Person venja = new Man("Venijamin");
+    System.out.println(venja);
   }
 }
